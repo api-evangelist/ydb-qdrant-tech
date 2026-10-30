@@ -64,5 +64,161 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ydb-qdrant-tech is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ydb-qdrant.tech/
+YDB-Qdrant provides a Qdrant‑compatible vector search API built on YDB, offering exact top‑k search over a single‑table layout via a REST interface and a Node.js library. It enables developers to store and query high‑dimensional vectors without managing a separate vector database cluster, includes free self‑hosted packages, and integrates with YDB’s scalable storage. The service features open‑source SDKs, Docker images, and comprehensive documentation for quick integration.
+
+**Areas:** Company · Vector Search · Database · API · YDB · Qdrant
+
+## ydb-qdrant-tech on APIs.io
+
+Everything profiled for ydb-qdrant-tech is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ydb-qdrant-tech/](https://apis.io/providers/ydb-qdrant-tech/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [ydb-qdrant-tech Agent API](https://apis.io/apis/ydb-qdrant-tech/ydb-qdrant-tech-agent-api/) — Interface generation and refinement.
+- [ydb-qdrant-tech Collections API](https://apis.io/apis/ydb-qdrant-tech/ydb-qdrant-tech-collections-api/) — Qdrant-compatible collection metadata operations
+- [ydb-qdrant-tech Discovery API](https://apis.io/apis/ydb-qdrant-tech/ydb-qdrant-tech-discovery-api/) — Agent-readable discovery metadata.
+- [ydb-qdrant-tech Feedback API](https://apis.io/apis/ydb-qdrant-tech/ydb-qdrant-tech-feedback-api/) — Publish liked generated interfaces.
+- [ydb-qdrant-tech MCP API](https://apis.io/apis/ydb-qdrant-tech/ydb-qdrant-tech-mcp-api/) — Streamable HTTP MCP transport.
+- [ydb-qdrant-tech Pets API](https://apis.io/apis/ydb-qdrant-tech/ydb-qdrant-tech-pets-api/) — Approved public Codex pet registry data.
+- [ydb-qdrant-tech Points API](https://apis.io/apis/ydb-qdrant-tech/ydb-qdrant-tech-points-api/) — Qdrant-compatible point retrieval, upsert, search, query, and delete operations
+- [ydb-qdrant-tech Requests API](https://apis.io/apis/ydb-qdrant-tech/ydb-qdrant-tech-requests-api/) — Public pet generation request workflow.
+- [ydb-qdrant-tech Service API](https://apis.io/apis/ydb-qdrant-tech/ydb-qdrant-tech-service-api/) — Root and health endpoints
+- [ydb-qdrant-tech Submissions API](https://apis.io/apis/ydb-qdrant-tech/ydb-qdrant-tech-submissions-api/) — Public pet pack submission workflow.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ydb Qdrant Tech Agentic Access](https://apis.io/agentic-access/ydb-qdrant-tech/ydb-qdrant-tech-agentic-access/)
+
+#### JSON Schema (18)
+
+The data models the API reads and writes.
+
+- [AgentDiscovery](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-agent-discovery/)
+- [CreateGenerationRequest](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-create-generation-request/)
+- [CreateGenerationRequestForm](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-create-generation-request-form/)
+- [DeletePointsRequest](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-delete-points-request/)
+- [DesignFeedbackRequest](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-design-feedback-request/)
+- [McpServerCard](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-mcp-server-card/)
+- [McpWellKnownDocument](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-mcp-well-known-document/)
+- [OAuthAuthorizationServerMetadata](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-oauth-authorization-server-metadata/)
+- [OAuthProtectedResourceMetadata](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-oauth-protected-resource-metadata/)
+- [OpenIdConfiguration](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-open-id-configuration/)
+- [PetsResponse](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-pets-response/)
+- [QueryPointsEnvelope](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-query-points-envelope/)
+- [QueryPointsRequest](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-query-points-request/)
+- [RegisterSubmissionForm](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-register-submission-form/)
+- [RetrievePointsRequest](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-retrieve-points-request/)
+- [SearchPointsRequest](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-search-points-request/)
+- [TagsResponse](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-tags-response/)
+- [UpsertPointsRequest](https://apis.io/schemas/ydb-qdrant-tech/ydb-qdrant-tech-upsert-points-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ydb Qdrant Tech Context](https://apis.io/jsonld/ydb-qdrant-tech/ydb-qdrant-tech-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ydb-qdrant-tech API Rules](https://apis.io/rules/ydb-qdrant-tech/ydb-qdrant-tech-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ydb Qdrant Tech Authentication](https://apis.io/security/ydb-qdrant-tech/ydb-qdrant-tech-authentication/)
+- [Ydb Qdrant Tech Domain Security](https://apis.io/security/ydb-qdrant-tech/ydb-qdrant-tech-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ydb Qdrant Tech Scopes](https://apis.io/scopes/ydb-qdrant-tech/ydb-qdrant-tech-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ydb Qdrant Tech Plans Pricing](https://apis.io/plans/ydb-qdrant-tech/ydb-qdrant-tech-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ydb Qdrant Tech Rate Limits](https://apis.io/rate-limits/ydb-qdrant-tech/ydb-qdrant-tech-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ydb-qdrant.tech/)
+- [Documentation](https://ydb-qdrant.tech/docs/)
+- [API reference](https://ydb-qdrant.tech/openapi.json)
+- [Pricing](https://ydb-qdrant.tech/pricing/)
+- [Support](https://ydb-qdrant.tech/contact/)
+- [Privacy policy](https://ydb-qdrant.tech/privacy/)
+- [GitHub](https://github.com/astandrik/ydb-qdrant)
+- [Status](https://ydb-qdrant.tech/code-indexer/status/)
+
+## API Evangelist rating
+
+**Kin Score 52.6** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 58.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 66.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | documented (partial credit) |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ydb-qdrant-tech/](https://apis.io/providers/ydb-qdrant-tech/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ydb-qdrant-tech: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ydb-qdrant-tech/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
